@@ -32,8 +32,6 @@
   color: var(--font-secondary);
 }
 
-/* Text/Secondary */
-
 .smart-hooks-content-wrp {
   width: 80vw;
   position: relative;
@@ -85,4 +83,5 @@ button {
 }
 span {
   display: inline-flex;
+  color: var(--font-secondary);
 }
