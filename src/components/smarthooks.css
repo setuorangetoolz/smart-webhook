@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-primary: #1c1b1f;
+  --font-secondary: #546376;
+  --secondary-main: #006df5;
+}
+
+.subtitle1,
+.font-medium {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  text-transform: capitalize;
+  color: var(--font-primary);
+}
+.font-secondary {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0.46px;
+  text-transform: capitalize;
+  color: var(--font-secondary);
+}
+
+/* Text/Secondary */
+
+.smart-hooks-content-wrp {
+  width: 80vw;
+  position: relative;
+  height: 100vh;
+}
+.sh-drawer-header,
+.sh-drawer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 70px;
+  border-bottom: 1px solid rgba(148, 157, 178, 0.24);
+}
+.sh-drawer-footer {
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  border-bottom: none;
+  border-top: 1px solid rgba(148, 157, 178, 0.24);
+}
+.sh-drawer-header p {
+  margin: 0;
+}
+.sh-close-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: skyblue;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 0px;
+  height: 42px;
+  background: var(--secondary-main);
+  border-radius: 4px;
+  margin-left: 10px;
+  border: none;
+  padding: 10px 18px;
+  color: white !important;
+}
+span {
+  display: inline-flex;
+}
